@@ -1,0 +1,2 @@
+class Helpee < ApplicationRecord
+end
