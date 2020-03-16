@@ -5,7 +5,8 @@ class CreateHelpees < ActiveRecord::Migration[6.0]
       t.string :last_name
       t.string :email
       t.integer :zip
-      t.integer :herlper_id
+      t.integer :helper_id
+      t.string :mobile_number
 
       t.timestamps
     end

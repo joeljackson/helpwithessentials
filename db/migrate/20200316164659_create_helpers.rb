@@ -5,6 +5,7 @@ class CreateHelpers < ActiveRecord::Migration[6.0]
       t.string :last_name
       t.string :email
       t.integer :zip
+      t.string :mobile_number
 
       t.timestamps
     end
